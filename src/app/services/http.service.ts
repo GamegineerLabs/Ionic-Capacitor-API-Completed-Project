@@ -14,7 +14,7 @@ export class HttpService {
     const options: HttpOptions = {
       url,
       headers: {
-        Authorization: 'Basic NFBaczZUR0FYUm1QNzRZM1c5M1FVSFdBUUk4ZnIzaTg6QXBwbGU0bGlmZSE=',
+        Authorization: 'Basic writekey:password',
         'Content-Type': 'application/json'
       },
       data: {
